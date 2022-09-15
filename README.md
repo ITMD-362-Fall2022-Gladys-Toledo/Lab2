@@ -21,5 +21,3 @@ complete your work.
 
 * Finally, post a link to your Github repository and live link for this lab to your Basecamp file. Along 
 with proof of html and css validations
-
-Example for CS100
