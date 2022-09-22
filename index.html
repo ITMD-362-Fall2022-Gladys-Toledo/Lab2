@@ -8,6 +8,38 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-
+  <form action="#null" method="post" autocomplete="on" autocapitalize="off">
+    <!--
+      legend title for fieldset
+      fieldset different forms but within same form input
+    -->
+    <fieldset>
+      <legend>Collect User Info</legend>
+      <!--
+        Collect User's:
+        email address
+        phone number
+        date of birth
+      -->
+      <div>
+        <label for="">Email Address:
+          <input type="email" name="email_address" placeholder="Email Address" id="email_address">
+        </label>
+      </div>
+      <div>
+        <label for="">Phone Number:
+          <input type="tel" name="phone_number" placeholder="Phone Number" id="phone_number">
+        </label>
+      </div>
+      <div>
+        <label for="">Date of Birth:
+          <input type="date" name="date_of_birth" id="date_of_birth">
+        </label>
+      </div>
+      <div>
+        <input type="submit" value="Submit">
+      </div>
+    </fieldset>
+  </form>
 </body>
 </html>
