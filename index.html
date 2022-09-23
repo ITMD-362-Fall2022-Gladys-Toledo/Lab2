@@ -21,24 +21,27 @@
         phone number
         date of birth
       -->
-      <div>
-        <label for="">Email Address:
-          <input type="email" name="email_address" placeholder="Email Address" id="email_address">
-        </label>
+      <div class="wrap">
+        <div class="email_address_div">
+          <label for="email_address_label">Email Address:
+            <input type="email" name="email_address" placeholder="Email Address" id="email_address">
+          </label>
+        </div>
+        <div class="phone_number_div">
+          <label for="phone_number_label">Phone Number:
+            <input type="tel" name="phone_number" placeholder="Phone Number" id="phone_number">
+          </label>
+        </div>
+        <div class="date_of_birth_div">
+          <label for="date_of_birth_label">Date of Birth:
+            <input type="date" name="date_of_birth" id="date_of_birth">
+          </label>
+        </div>
+        <div class="submit_div">
+          <input type="submit" value="Submit">
+        </div>
       </div>
-      <div>
-        <label for="">Phone Number:
-          <input type="tel" name="phone_number" placeholder="Phone Number" id="phone_number">
-        </label>
-      </div>
-      <div>
-        <label for="">Date of Birth:
-          <input type="date" name="date_of_birth" id="date_of_birth">
-        </label>
-      </div>
-      <div>
-        <input type="submit" value="Submit">
-      </div>
+      
     </fieldset>
   </form>
 </body>
