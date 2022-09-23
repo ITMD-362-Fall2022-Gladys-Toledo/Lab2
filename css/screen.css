@@ -5,10 +5,7 @@ input[type=email],input[type=tel],input[type=date] {
     border-radius: 4px;
     resize: vertical;
 }
-form {
-    background-color: white;
-    margin: auto;
-}
+
 label {
     padding: 12px 29px 12px 0;
     display: inline-block;
